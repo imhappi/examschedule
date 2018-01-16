@@ -1,0 +1,121 @@
+/* Update this file with your styling rules. */
+body {
+    background-color: #bad4ff;
+}
+.center {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+    background-color: #b1f29f;
+}
+
+.button {
+    background-color: gray;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.loader {
+	margin: 30px;
+	display: none;
+    border: 16px solid #fff; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.flex-container {
+  display: -webkit-flex; /* Safari */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.exam-item {
+	margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+}
+
+.left {
+	width: auto;
+	text-align: left;
+	display: inline-block;
+}
+
+.right {
+	width: auto;
+	text-align: right;
+	display: inline-block;
+}
+
+.table-row {
+	border: 3px solid #73AD21;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    width: 60%;
+    padding: 10px;
+    margin: auto;
+    margin-top: 15px;
+    background-color: #b1f29f;
+}
+
+.table-row-no-border {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    width: 60%;
+    padding: 10px;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.text {
+    flex-grow: 1;
+    -webkit-flex-grow: 1;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding-right: 20px;
+}
+
+.text {
+    width: 180px;
+}
+
+.container-fluid {
+    margin: auto;
+}
+
+.inline {
+    display: inline-block;
+    padding: 5px;
+}
+
+.sort-by {
+    display: inline-block;
+    padding-top: 20px;
+}
+
+.leftTextAlign {
+    text-align: left;
+}
